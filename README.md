@@ -6,9 +6,11 @@ Interview problems and their solutions using JavaScript
 
 Determine if a string has unique chracters ?
 
+```
 function isUniqueChars(str) {
   return new Set(str).size === str.length
 }
+```
 
 ## Problem Statement 2
 
@@ -44,4 +46,3 @@ Given array of numbers e.g `arr = [1,2,3,4,5,6,7,8,9,10,11,12,13]` display the a
     let j = arr.splice(0, itr);
     console.log(j + "\n");
     }```
-
