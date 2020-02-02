@@ -1,6 +1,7 @@
 # interview-problems-js
 
-Interview problems and their solutions using JavaScript
+Interview problems and their solutions using JavaScript 
+If you have ever faced an interesting problem feel free to open a Pull Request
 
 ## Problem Statement 1
 
