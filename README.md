@@ -83,3 +83,42 @@ replaceSpace("Mr John Smith  ,13")
 
 // Mr%20John%20Smith%20%20,13
 ```
+
+## Problem Statement 5
+
+Assume you have a method isSubst ring which checks if one word is a substring of another. Given two strings, 51 and 52, write code to check if 52 is a rotation of 51 using only one call to isSubstring (e.g., " waterbottle" is a rotation of" erbottlewat" ).
+
+## Problem Statement 6
+
+Zero Matrix: Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.
+
+```
+let m = [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 0 ] ] 
+
+function zeroMatrix(rows, cols, matrix) {
+  let rowcord;
+  let colcord;
+  if (rows != cols) {
+    return
+  }
+  // Finding the co-ordinates of 0 element
+  for (let i = 0; i < rows; i++) {
+    for (let j = 0; j < cols; j++) {
+      if (matrix[i][j] == 0) {
+        rowcord = i;
+        colcord = j
+
+      }
+    }
+  }
+
+  // Replacing the row and count
+  for (let i = 0; i < rows; i++) {
+    for (let j = 0; j < cols; j++) {
+      matrix[i][colcord] = 0
+      matrix[rowcord][j] = 0
+    }
+  }
+  console.log(matrix) // [ [ 1, 2, 0 ], [ 4, 5, 0 ], [ 0, 0, 0 ] ] 
+}
+```
