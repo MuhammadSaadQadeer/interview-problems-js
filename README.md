@@ -1,8 +1,9 @@
 # interview-problems-js
 
-Interview problems and their solutions using JavaScript 
-If you have ever faced an interesting problem feel free to open a Pull Request
-
+- Interview problems and their solutions using JavaScript 
+- If you have ever faced an interesting problem feel free to open a Pull Request
+- If you think there are more solutions to a single problem open a Pull Request
+- Feel free if you want to add or comment on anything
 ## Problem Statement 1
 
 Determine if a string has unique chracters ?
